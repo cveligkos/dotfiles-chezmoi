@@ -19,7 +19,7 @@ mason_lspconfig.setup({
 	ensure_installed = {
 		"tsserver",
 		"rust_analyzer",
-		"sumneko_lua",
+		"lua_ls",
 		"html",
 		"cssls",
 		"svelte",

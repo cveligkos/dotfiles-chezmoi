@@ -62,6 +62,6 @@ vim.o.completeopt="menu,menuone,noselect"
     capabilities = capabilities
   }
 
-  require('lspconfig')['sumneko_lua'].setup {
+  require('lspconfig')['lua_ls'].setup {
     capabilities = capabilities
   }
