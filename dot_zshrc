@@ -11,6 +11,7 @@ FILES=(
     keybinds
     rtx
     path
+    vars
 )
 
 load () {
