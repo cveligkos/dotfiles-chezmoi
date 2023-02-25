@@ -102,6 +102,9 @@ return packer.startup(function(use)
 	use("Mofiqul/dracula.nvim")
 	use("folke/twilight.nvim")
 	use("folke/zen-mode.nvim")
+
+	use("gpanders/nvim-parinfer")
+	use("elkowar/yuck.vim")
 	use({
 		"nvim-neorg/neorg",
 		run = ":Neorg sync-parsers",
