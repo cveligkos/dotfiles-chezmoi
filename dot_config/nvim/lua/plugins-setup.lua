@@ -99,6 +99,11 @@ return packer.startup(function(use)
 	use("Mofiqul/dracula.nvim")
 	use("folke/twilight.nvim")
 	use("folke/zen-mode.nvim")
+	use({
+		"nvim-neorg/neorg",
+		run = ":Neorg sync-parsers",
+		requires = "nvim-lua/plenary.nvim",
+	})
 
 	-- use({
 	-- 	"folke/noice.nvim",
