@@ -45,3 +45,5 @@ keymap.set("n", "<leader>fr", "<cmd>Telescope resume<CR>")
 keymap.set("n", ";", ":")
 keymap.set("n", "<M-s>", ":write<CR>")
 keymap.set("i", "<M-s>", "<C-o>:write<CR>")
+
+keymap.set("n", "<leader>so", "<cmd>SymbolsOutline<CR>")

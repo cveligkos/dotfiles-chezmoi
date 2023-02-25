@@ -85,6 +85,8 @@ return packer.startup(function(use)
 	use("windwp/nvim-autopairs")
 	use("windwp/nvim-ts-autotag")
 
+	use("simrat39/symbols-outline.nvim")
+
 	-- git integration
 	use("lewis6991/gitsigns.nvim")
 
