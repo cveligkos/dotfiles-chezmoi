@@ -1,6 +1,6 @@
 FILES=(
+    powerlevel10k_instant_prompt
     zinit
-    powerlevel10k
     options
     aliases
     zoxide
@@ -12,6 +12,7 @@ FILES=(
     rtx
     path
     vars
+    powerlevel10k
 )
 
 load () {
@@ -19,7 +20,3 @@ load () {
 }
 
 for file in $FILES; load $file
-
-
-
-
