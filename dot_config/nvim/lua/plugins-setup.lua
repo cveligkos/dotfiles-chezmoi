@@ -89,6 +89,7 @@ return packer.startup(function(use)
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim")
+	use("f-person/git-blame.nvim")
 
 	use("NoahTheDuke/vim-just")
 
