@@ -1,4 +1,6 @@
 alias SS='sudo systemctl'
+alias reload='source ~/.zshrc'
+
 alias v='nvim'
 alias t='task'
 alias r='ranger'
@@ -16,5 +18,5 @@ alias gd='git diff'
 alias gds='git diff --staged'
 alias gcl='git clone'
 
-alias reload='source ~/.zshrc'
-
+alias cz='chezmoi'
+alias zj='zellij'
