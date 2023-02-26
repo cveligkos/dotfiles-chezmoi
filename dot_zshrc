@@ -9,6 +9,7 @@ FILES=(
     tabtab
     completion
     keybinds
+    atuin
     rtx
     path
     vars

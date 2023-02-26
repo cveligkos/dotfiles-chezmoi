@@ -12,5 +12,3 @@ bindkey '^[[3;5~' delete-word
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-
-bindkey '^r' _atuin_search_widget

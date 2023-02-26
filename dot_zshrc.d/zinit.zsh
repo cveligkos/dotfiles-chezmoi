@@ -32,7 +32,5 @@ zinit light akash329d/zsh-alias-finder
 
 zinit light zsh-users/zsh-autosuggestions
 
-zinit light ellie/atuin
-
 ### End of Zinit's installer chunk
 # }}}
