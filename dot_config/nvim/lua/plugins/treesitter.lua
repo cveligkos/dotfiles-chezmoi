@@ -25,6 +25,7 @@ treesitter.setup({
 		"svelte",
 		"python",
 		"markdown",
+		"markdown_inline",
 	},
 	auto_install = true,
 })

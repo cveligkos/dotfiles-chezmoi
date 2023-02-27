@@ -25,6 +25,7 @@ mason_lspconfig.setup({
 		"svelte",
 		"pylsp",
 		"gopls",
+		"clangd",
 	},
 })
 

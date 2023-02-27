@@ -41,16 +41,6 @@ end
 -- used to enable autocompletion
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
-lspconfig["html"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["cssls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
 lspconfig["lua_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
@@ -71,11 +61,6 @@ lspconfig["lua_ls"].setup({
 	},
 })
 
-lspconfig["tsserver"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
 typescript.setup({
 	server = {
 		capabilities = capabilities,
@@ -83,22 +68,11 @@ typescript.setup({
 	},
 })
 
-lspconfig["rust_analyzer"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
+local lsp_servers = { "html", "cssls", "tsserver", "rust_analyzer", "svelte", "pylsp", "gopls", "clangd" }
 
-lspconfig["svelte"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["pylsp"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["gopls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
+for _, server in ipairs(lsp_servers) do
+	lspconfig[server].setup({
+		capabilities = capabilities,
+		on_attach = on_attach,
+	})
+end
