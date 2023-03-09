@@ -26,6 +26,7 @@ mason_lspconfig.setup({
 		"pylsp",
 		"gopls",
 		"clangd",
+		"tailwindcss",
 	},
 })
 

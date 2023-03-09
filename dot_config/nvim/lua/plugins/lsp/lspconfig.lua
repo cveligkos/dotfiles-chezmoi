@@ -68,7 +68,17 @@ typescript.setup({
 	},
 })
 
-local lsp_servers = { "html", "cssls", "tsserver", "rust_analyzer", "svelte", "pylsp", "gopls", "clangd" }
+local lsp_servers = {
+	"html",
+	"cssls",
+	"tsserver",
+	"rust_analyzer",
+	"svelte",
+	"pylsp",
+	"gopls",
+	"clangd",
+	"tailwindcss",
+}
 
 for _, server in ipairs(lsp_servers) do
 	lspconfig[server].setup({
