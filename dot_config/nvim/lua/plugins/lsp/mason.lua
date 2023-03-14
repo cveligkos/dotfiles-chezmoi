@@ -27,6 +27,7 @@ mason_lspconfig.setup({
 		"gopls",
 		"clangd",
 		"tailwindcss",
+		"intelephense",
 	},
 })
 
@@ -39,5 +40,7 @@ mason_null_ls.setup({
 		"rustfmt",
 		"gofmt",
 		"shellcheck",
+		"pint",
+		"blade-formatter",
 	},
 })

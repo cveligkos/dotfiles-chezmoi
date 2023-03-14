@@ -78,6 +78,7 @@ local lsp_servers = {
 	"gopls",
 	"clangd",
 	"tailwindcss",
+	"intelephense",
 }
 
 for _, server in ipairs(lsp_servers) do

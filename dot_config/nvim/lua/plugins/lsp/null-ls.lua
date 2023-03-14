@@ -22,6 +22,8 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.black,
 		formatting.gofmt,
+		formatting.pint,
+		formatting.blade_formatter,
 		formatting.rustfmt.with({
 			extra_args = function(params)
 				local Path = require("plenary.path")
