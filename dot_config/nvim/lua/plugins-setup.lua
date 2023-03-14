@@ -80,6 +80,8 @@ lazy.setup({
 
 	"simrat39/symbols-outline.nvim",
 
+	"sheerun/vim-polyglot",
+
 	-- git integration
 	"lewis6991/gitsigns.nvim",
 	"f-person/git-blame.nvim",
